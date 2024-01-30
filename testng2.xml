@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Application TestCase">
+
+  <test thread-count="5" name="Demo Regression Test">
+    <classes>
+      <class name="qaclickacademy.APITest2"/>
+      <class name="qaclickacademy.APITest3"/>
+      <class name="qaclickacademy.AppiumTest"/>
+      <class name="qaclickacademy.SeleniumTest"/>
+      
+      
+<!--  right click->source->add block comment
+
+ <class name="com.ballistix.qa.pages.Demo"/>
+ -->      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

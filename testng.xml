@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Rest Assured">
+    <classes>
+      <class name="TestFramework.Basics6"/>
+      <class name="TestFramework.AddPaceMaps"/>
+      <class name="TestFramework.Comnet_jira_basic7"/>
+      <class name="TestFramework.APITest2"/>
+      <class name="TestFramework.APITest3"/>
+      <class name="TestFramework.AddandDeletePlaceMap"/>
+      <class name="TestFramework.AppiumTest"/>
+      <class name="TestFramework.SeleniumTest"/>
+      <class name="TestFramework.AddPaceMapsXML_Basic4"/>
+    </classes>
+  </test> <!-- Rest Assured -->
+</suite> <!-- Suite -->

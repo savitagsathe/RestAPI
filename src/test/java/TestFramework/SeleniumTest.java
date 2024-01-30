@@ -9,4 +9,9 @@ public class SeleniumTest {
 		System.out.println("seleniumTest");
 	}
 
+	@Test
+	public void seleniumTestfor()
+	{
+		System.out.println("seleniumTest updates done");
+	}
 }
